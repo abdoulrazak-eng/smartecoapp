@@ -71,7 +71,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   Future<void> _onBiometricLogin() async {
     final authenticated = await _biometricService.authenticate(
-      reason: 'Use your fingerprint to login to SmartEco AI',
+      reason: 'Use your fingerprint to login to Ejova',
     );
 
     if (authenticated && mounted) {
@@ -148,7 +148,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                   const SizedBox(width: 12),
                   const Text(
-                    'SmartEco AI',
+                    'Ejova',
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,

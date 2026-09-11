@@ -259,7 +259,7 @@ class _VerifyPhoneScreenState extends State<VerifyPhoneScreen> {
                       text: AppLocalizations.of(context)!.verifyTip,
                       children: [
                         const TextSpan(
-                          text: 'SmartEco AI',
+                          text: 'Ejova',
                           style: TextStyle(
                             color: AppColors.primary,
                             fontWeight: FontWeight.bold,

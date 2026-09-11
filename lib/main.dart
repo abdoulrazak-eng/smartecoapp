@@ -67,14 +67,14 @@ void main() async {
       ],
       child: DevicePreview(
         enabled: !kReleaseMode,
-        builder: (context) => const SmartEcoApp(),
+        builder: (context) => const EjovaApp(),
       ),
     ),
   );
 }
 
-class SmartEcoApp extends StatelessWidget {
-  const SmartEcoApp({super.key});
+class EjovaApp extends StatelessWidget {
+  const EjovaApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -82,7 +82,7 @@ class SmartEcoApp extends StatelessWidget {
 
     return MaterialApp(
       navigatorKey: AppRouter.navigatorKey,
-      title: 'SmartEco AI',
+      title: 'Ejova',
       theme: AppTheme.lightTheme,
       // Localization setup
       localizationsDelegates: const [

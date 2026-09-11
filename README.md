@@ -1,4 +1,4 @@
-# SmartEco AI
+# Ejova
 
 A new Flutter project.
 

@@ -74,7 +74,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get helpSupport => 'Help & Support';
 
   @override
-  String get aboutSmartEco => 'About SmartEco AI';
+  String get aboutSmartEco => 'About Ejova';
 
   @override
   String get logOut => 'Log Out';
@@ -374,7 +374,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get earnedFirstEcoPoints => 'You\'ve earned your first EcoPoints';
 
   @override
-  String get startUsingSmartEco => 'Start Using SmartEco AI';
+  String get startUsingSmartEco => 'Start Using Ejova';
 
   @override
   String get rewardsTitle => 'EcoPoints Rewards';

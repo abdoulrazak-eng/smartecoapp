@@ -229,7 +229,7 @@ abstract class AppLocalizations {
   /// No description provided for @aboutSmartEco.
   ///
   /// In en, this message translates to:
-  /// **'About SmartEco AI'**
+  /// **'About Ejova'**
   String get aboutSmartEco;
 
   /// No description provided for @logOut.
@@ -799,7 +799,7 @@ abstract class AppLocalizations {
   /// No description provided for @startUsingSmartEco.
   ///
   /// In en, this message translates to:
-  /// **'Start Using SmartEco AI'**
+  /// **'Start Using Ejova'**
   String get startUsingSmartEco;
 
   /// No description provided for @rewardsTitle.
